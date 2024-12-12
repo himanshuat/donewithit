@@ -27,7 +27,10 @@ const styles = StyleSheet.create({
     icon: {
         marginRight: 10,
     },
-    textInput: defaultStyles.text,
+    textInput: {
+        ...defaultStyles.text,
+        flex: 1,
+    },
 })
 
 export default AppTextInput;
