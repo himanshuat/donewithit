@@ -8,20 +8,20 @@ import ListItemDeleteAction from '../components/ListItemDeleteAction';
 const initialMessages = [
 	{
 		id: 1,
-		title: 'T1',
-		description: 'D1',
+		title: 'Tony Stark',
+		description: 'Hey! Is this item still available?',
 		image: require('../assets/tony.jpg')
 	},
 	{
 		id: 2,
-		title: 'T2',
-		description: 'D2',
+		title: 'Tony Stark',
+		description: 'I am interested in this item. When will you be able to post it?',
 		image: require('../assets/tony.jpg')
 	},
 	{
 		id: 3,
-		title: 'T3',
-		description: 'D3',
+		title: 'Tony Stark',
+		description: 'I would like to buy this. Do you have any discounts?',
 		image: require('../assets/tony.jpg')
 	}
 ]
