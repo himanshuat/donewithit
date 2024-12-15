@@ -4,7 +4,7 @@ import * as Yup from "yup";
 
 import Screen from "../components/Screen";
 import {
-	AppForm,
+	Form,
 	FormField,
 	SubmitButton,
 } from "../components/forms";
@@ -18,7 +18,7 @@ const validationSchema = Yup.object().shape({
 function RegisterScreen() {
 	return (
 		<Screen style={styles.container}>
-			<AppForm
+			<Form
 				initialValues={{ name: "", email: "", password: "" }}
 				onSubmit={(values) => console.log(values)}
 				validationSchema={validationSchema}
@@ -48,7 +48,7 @@ function RegisterScreen() {
 					textContentType="password"
 				/>
 				<SubmitButton title="Register" />
-			</AppForm>
+			</Form>
 		</Screen>
 	);
 }
