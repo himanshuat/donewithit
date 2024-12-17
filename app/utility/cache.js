@@ -39,3 +39,8 @@ const get = async (key) => {
 		console.log(error);
 	}
 }
+
+export default {
+	get,
+	store,
+}
