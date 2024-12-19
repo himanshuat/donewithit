@@ -53,7 +53,11 @@ function AccountScreen({ navigation }) {
 					ItemSeparatorComponent={ListItemSeparator}
 				/>
 			</View>
-			<ListItem title="Log Out" IconComponent={<Icon name="logout" backgroundColor='#FFE66D' />} />
+			<ListItem
+				title="Log Out"
+				IconComponent={<Icon name="logout" backgroundColor='#FFE66D' />}
+				onPress={() => setUser(null)}
+			/>
 		</Screen>
 	);
 }
